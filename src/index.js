@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import ErrorPage from "./components/ErrorPage";
 import Dashboard from "./components/Dashboard";
 import EmployeeForm from "./components/EmployeeForm";
+import Edit from "./components/Edit";
 
 const appRouter = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const appRouter = createBrowserRouter([
   {
     path: "employeeForm",
     element: <EmployeeForm />,
+  },
+  {
+    path: "edit",
+    element: <Edit />,
   },
 ]);
 

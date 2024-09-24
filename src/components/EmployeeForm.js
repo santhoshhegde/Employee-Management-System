@@ -58,7 +58,7 @@ const EmployeeForm = () => {
         className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-2xl font-bold mb-6">Create Employee</h2>
+        <h2 className="text-2xl font-bold mb-6">Add Employee</h2>
 
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
