@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const authentication = () => {
-    if (login === "admin" && password === "12345") {
+    if (login === "admin" && password === "1234567890") {
       navigate("/dashboard");
       localStorage.setItem("Name", "USERNAME");
     } else {
@@ -49,7 +49,9 @@ const Login = () => {
           auth ? (
             <h1>Sucessfull</h1>
           ) : (
-            <h1>Fail</h1>
+            <h1 className="text-xl font-bold text-red-600 text-center">
+              Login Failed
+            </h1>
           )
         ) : (
           <h1></h1>
